@@ -1,0 +1,24 @@
+sources:
+  - owner: Zie619
+    repo: n8n-workflows
+    branch: main
+    mode: link-only
+    include:
+      - "workflows/**/*.json"
+  - owner: wassupjay
+    repo: n8n-free-templates
+    branch: main
+    mode: ingest
+    include:
+      - "**/*.json"
+  - owner: Marvomatic
+    repo: n8n-templates
+    branch: main
+    mode: ingest
+    include:
+      - "**/*.json"
+  - owner: enescingoz
+    repo: awesome-n8n-templates
+    branch: main
+    mode: link-only
+    include: []
